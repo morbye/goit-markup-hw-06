@@ -289,7 +289,7 @@ textarea {
 }
 
 .checkbox:checked + .icon-checkbox {
-  background-image: url(/images/checkgal.svg);
+  background-image: url(../images/checkgal.svg);
   background-color: var(--accent-color);
   background-size: contain;
   background-origin: border-box;
@@ -325,6 +325,7 @@ textarea {
   border-radius: 4px;
   background: #2f303a;
   margin-right: 12px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-label {
@@ -806,6 +807,7 @@ ul {
   align-items: center;
   list-style: none;
   border: none;
+  cursor: pointer;
 }
 .button.primary {
   color: var(--white-color);
@@ -814,6 +816,7 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
+  cursor: pointer;
 }
 
 .button-form {
@@ -827,7 +830,7 @@ ul {
   height: 50px;
   left: 700px;
   top: 713px;
-
+  cursor: pointer;
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -841,7 +844,7 @@ ul {
   position: absolute;
   top: 8px;
   right: 8px;
-
+  cursor: pointer;
   text-decoration: none;
   width: 30px;
   height: 30px;
@@ -869,6 +872,8 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
+  width: 200px;
+  height: 50px;
 }
 
 .primary-footer::after {
@@ -886,6 +891,14 @@ ul {
   font-style: normal;
   display: block;
   margin-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
 }
 
 .address .info {
@@ -1016,11 +1029,16 @@ ul {
   display: flex;
   font-style: normal;
   flex-direction: column;
-  margin-right: 171px;
+  margin-right: 69px;
+  width: 231px;
+}
+
+.footer-bays {
+  display: block;
 }
 
 .main-link-footer {
-  margin-right: 155px;
+  margin-right: 94px;
 }
 
 .footer .Studio {
@@ -1053,7 +1071,7 @@ ul {
   display: block;
   content: "";
   height: 120px;
-  background-image: url(/images/Antena.svg),
+  background-image: url(../images/Antena.svg),
     linear-gradient(to right, #f5f4fa, #f5f4fa);
   background-position: center;
   background-repeat: no-repeat;
@@ -1064,7 +1082,7 @@ ul {
   display: block;
   content: "";
   height: 120px;
-  background-image: url(/images/Clock.svg),
+  background-image: url(../images/Clock.svg),
     linear-gradient(to right, #f5f4fa, #f5f4fa);
   background-position: center;
   background-repeat: no-repeat;
@@ -1075,7 +1093,7 @@ ul {
   display: block;
   content: "";
   height: 120px;
-  background-image: url(/images/diagram.svg),
+  background-image: url(../images/diagram.svg),
     linear-gradient(to right, #f5f4fa, #f5f4fa);
   background-position: center;
   background-repeat: no-repeat;
@@ -1086,7 +1104,7 @@ ul {
   display: block;
   content: "";
   height: 120px;
-  background-image: url(/images/astronaut.svg),
+  background-image: url(../images/astronaut.svg),
     linear-gradient(to right, #f5f4fa, #f5f4fa);
   background-position: center;
   background-repeat: no-repeat;
